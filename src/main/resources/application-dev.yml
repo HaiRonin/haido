@@ -1,0 +1,15 @@
+#    cache: true
+server:
+  port: 80
+  servlet:
+    context-path: /hido
+
+spring:
+  datasource:
+    username: hospital
+    password: hospital
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    platform: mysql
+    url: jdbc:mysql://120.76.246.196:3306/hospital?characterEncoding=utf-8&useSSL=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+
+  
